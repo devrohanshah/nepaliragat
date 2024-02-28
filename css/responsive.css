@@ -1,0 +1,216 @@
+
+@media only screen and (max-width: 600px) {
+  *{
+    
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    max-width: 100vw;
+  }
+  /* some key tags  */
+  section{
+    padding: 30px 10px;
+  }
+  /* header */
+  .mob-logo{
+    display: none;
+    width: 100px;
+    height: fit-content;
+    margin:10px 130px ;
+  }
+  .mob-logo img {
+    width: 100px;
+    height: auto;
+  }
+  .header{
+    width: 300px;
+  }
+  
+  .header{
+    background: none;
+    position: relative;
+    .logo img{
+      width: 120px;
+      height: auto;      
+    }
+    .reg button{
+      font-size: 14px;      
+      width: 150px;
+      height: 50px;
+      padding: 1px 3px;
+      margin-left: -140px;
+          
+    }
+    .nav-bar a{
+      display: none;
+    }
+    
+    margin-left: 75px;
+    
+  }
+  .mobile-nav{
+    display: block;
+  }
+
+  main{
+    padding-bottom: 60px;
+  }
+  /* home  */
+  .home{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .home {
+    .home-left{
+      width: 100vw;
+      height: auto;
+      gap: 10px;     
+    }
+    .home-left h1{
+      margin:-10px 0 0 0;
+      width: 60vw;
+      font-size: 25px;
+      
+    }
+    .home-left h3{
+      font-size: 20px;
+      margin:10px 0 0 0;
+    }
+    .home-left-links{
+      margin:10px 0 0 0;     
+    }
+    .home-left-links a:hover {
+      background-color: #0D72F9;
+      scale: 1;
+      
+    }
+    
+    .home-right h1{
+      font-size: 25px;
+    }
+    .home-right{
+      width: 100vw;
+      height: auto;
+      margin-top: -45px;
+    }
+    .home-right-content{
+      margin: 10px;
+    }
+    .home-right #placeDetailsForm > div{
+      display: flex;
+      justify-content: space-between;
+      width: 85vw;
+    }
+    #placeDetailsForm label{
+      width: 25vw;
+    }
+    #placeDetailsForm select{
+      width: 51vw;
+    }
+
+  }
+
+  /* idea  */
+  .idea{
+    margin-top: -250px;
+    .idea-head{
+      width: 80vw;
+    }
+    .idea-content{
+      display: flex;
+      flex-direction: column;      
+    }
+    .idea-cont{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    .idea-pic{
+      width: 100vw;
+    }
+    .idea-pic-img{
+      width: 90vw;
+      margin: 0 auto;
+    }
+  }
+
+  /* core team  */
+  .core-team{
+    .core-head{
+      padding: 20px;
+    }
+    .core-members{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .core-members > div{
+      padding: 0;
+    }
+    .core-members > div img{
+      min-width: 150px;
+      height: 150px;
+    }
+  }
+
+  /* contact us  */
+  .contact{
+    gap: 10px;
+  }
+  .contact{
+    .contact-content{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      gap: 75px;
+    }
+    .contact-content> div{
+      width: auto;
+      height: auto;
+      gap: 10px;
+    }
+    .contact-content> div > div{
+      height: auto;
+      text-align: center;
+    }
+    .contact-content i{
+      font-size: 50px;
+      margin: 7px;
+    }
+    .contact-content img{
+      width: 125px;
+      height: auto;
+      margin: 7px;
+    }
+    .dailoag-box-content{
+      width: 100%;
+    }
+    .dailoag-box-content form{
+      width: 80vw;
+      height: auto;
+      gap: 25px;
+      padding: 40px 20px;
+    }
+    .dailoag-box-content form>div{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+    }
+    .dailoag-box-content form textarea{
+      width: 100%;
+    }  
+    .dailoag-box-content form label{
+      font-size: 16px;
+    }
+    .dailoag-box-content form input,.dailoag-box-content form textarea{
+      font-size: 14px;
+    }
+  }
+
+}

@@ -1,0 +1,727 @@
+[
+    {
+      "Name": "Bhojpur",
+      "Nepali": "भोजपुर जिल्ला",
+      "Headquarters": "Bhojpur",
+      "Population_2011": "182,459",
+      "Area_km2": "1,507",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Dhankuta",
+      "Nepali": "धनकुटा जिल्ला",
+      "Headquarters": "Dhankuta",
+      "Population_2011": "163,412",
+      "Area_km2": "0,892",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Ilam",
+      "Nepali": "इलाम जिल्ला",
+      "Headquarters": "Ilam",
+      "Population_2011": "290,254",
+      "Area_km2": "1,703",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Jhapa",
+      "Nepali": "झापा जिल्ला",
+      "Headquarters": "Bhadrapur",
+      "Population_2011": "812,650",
+      "Area_km2": "1,606",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Khotang",
+      "Nepali": "खोटाँग जिल्ला",
+      "Headquarters": "Diktel",
+      "Population_2011": "206,312",
+      "Area_km2": "1,591",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Morang",
+      "Nepali": "मोरंग जिल्ला",
+      "Headquarters": "Biratnagar",
+      "Population_2011": "965,370",
+      "Area_km2": "1,855",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality", "Metropolitan"]
+    },
+    {
+      "Name": "Okhaldhunga",
+      "Nepali": "ओखलढुंगा जिल्ला",
+      "Headquarters": "Siddhicharan",
+      "Population_2011": "147,984",
+      "Area_km2": "1,074",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Panchthar",
+      "Nepali": "पांचथर जिल्ला",
+      "Headquarters": "Phidim",
+      "Population_2011": "191,817",
+      "Area_km2": "1,241",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Sankhuwasabha",
+      "Nepali": "संखुवासभा जिल्ला",
+      "Headquarters": "Khandbari",
+      "Population_2011": "158,742",
+      "Area_km2": "3,480",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Solukhumbu",
+      "Nepali": "सोलुखुम्बू जिल्ला",
+      "Headquarters": "Salleri",
+      "Population_2011": "105,886",
+      "Area_km2": "3,312",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Sunsari",
+      "Nepali": "सुनसरी जिल्ला",
+      "Headquarters": "Inaruwa",
+      "Population_2011": "763,497",
+      "Area_km2": "1,257",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Taplejung",
+      "Nepali": "ताप्लेजुंग जिल्ला",
+      "Headquarters": "Taplejung",
+      "Population_2011": "127,461",
+      "Area_km2": "3,646",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Terhathum",
+      "Nepali": "तेह्रथुम जिल्ला",
+      "Headquarters": "Myanglung",
+      "Population_2011": "113,111",
+      "Area_km2": "0,679",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Udayapur",
+      "Nepali": "उदयपुर जिल्ला",
+      "Headquarters": "Gaighat",
+      "Population_2011": "317,532",
+      "Area_km2": "2,063",
+      "Province": "Koshi Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Saptari",
+      "Nepali": "सप्तरी जिल्ला",
+      "Headquarters": "Rajbiraj",
+      "Population_2011": "639,284",
+      "Area_km2": "1,363",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Parsa",
+      "Nepali": "पर्सा जिल्ला",
+      "Headquarters": "Birgunj",
+      "Population_2011": "601,017",
+      "Area_km2": "1,353",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality", "Metropolitan"]
+    },
+    {
+      "Name": "Sarlahi",
+      "Nepali": "सर्लाही जिल्ला",
+      "Headquarters": "Malangwa",
+      "Population_2011": "769,729",
+      "Area_km2": "1,259",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Bara",
+      "Nepali": "बारा जिल्ला",
+      "Headquarters": "Kalaiya",
+      "Population_2011": "687,708",
+      "Area_km2": "1,190",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Siraha",
+      "Nepali": "सिराहा जिल्ला",
+      "Headquarters": "Siraha",
+      "Population_2011": "637,328",
+      "Area_km2": "1,188",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Dhanusha",
+      "Nepali": "धनुषा जिल्ला",
+      "Headquarters": "Janakpur",
+      "Population_2011": "754,777",
+      "Area_km2": "1,180",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Rautahat",
+      "Nepali": "रौतहट जिल्ला",
+      "Headquarters": "Gaur",
+      "Population_2011": "686,722",
+      "Area_km2": "1,126",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Mahottari",
+      "Nepali": "महोत्तरी जिल्ला",
+      "Headquarters": "Jaleshwar",
+      "Population_2011": "627,580",
+      "Area_km2": "1,002",
+      "Province": "Madhesh Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Sindhuli",
+      "Nepali": "सिन्धुली जिल्ला",
+      "Headquarte_2011rs": "Kamalamai",
+      "Area_km2": "2,491",
+      "Population": "296,192",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Ramechhap",
+      "Nepali": "रामेछाप जिल्ला",
+      "Headquarte_2011rs": "Manthali",
+      "Area_km2": "1,546",
+      "Population": "202,646",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Dolakha",
+      "Nepali": "दोलखा जिल्ला",
+      "Headquarte_2011rs": "Bhimeshwar",
+      "Area_km2": "2,191",
+      "Population": "186,557",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Bhaktapur",
+      "Nepali": "भक्तपुर जिल्ला",
+      "Headquarte_2011rs": "Bhaktapur",
+      "Area_km2": 119,
+      "Population": "304,651",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality"]
+    },
+    {
+      "Name": "Dhading",
+      "Nepali": "धादिङ जिल्ला",
+      "Headquarte_2011rs": "Nilkantha",
+      "Area_km2": "1,926",
+      "Population": "336,067",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Kathmandu",
+      "Nepali": "काठमाडौँ जिल्ला",
+      "Headquarte_2011rs": "Kathmandu",
+      "Area_km2": 395,
+      "Population": "1,744,240",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Metropolitan"]
+    },
+    {
+      "Name": "Kavrepalanchok",
+      "Nepali": "काभ्रेपलान्चोक जिल्ला",
+      "Headquarte_2011rs": "Dhulikhel",
+      "Area_km2": "1,396",
+      "Population": "381,937",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Lalitpur",
+      "Nepali": "ललितपुर जिल्ला",
+      "Headquarte_2011rs": "Lalitpur",
+      "Area_km2": 385,
+      "Population": "468,132",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality", "Metropolitan"]
+    },
+    {
+      "Name": "Nuwakot",
+      "Nepali": "नुवाकोट जिल्ला",
+      "Headquarte_2011rs": "Bidur",
+      "Area_km2": "1,121",
+      "Population": "277,471",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Rasuwa",
+      "Nepali": "रसुवा जिल्ला",
+      "Headquarte_2011rs": "Dhunche",
+      "Area_km2": "1,544",
+      "Population": "43,300",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Sindhupalchok",
+      "Nepali": "सिन्धुपाल्चोक जिल्ला",
+      "Headquarte_2011rs": "Chautara",
+      "Area_km2": "2,542",
+      "Population": "287,798",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Chitwan",
+      "Nepali": "चितवन जिल्ला",
+      "Headquarte_2011rs": "Bharatpur",
+      "Area_km2": "2,218",
+      "Population": "579,984",
+      "Province": "Bagmati",
+      "LocalBodiesType": ["Municipality", "Rular Municipality", "Metropolitan"]
+    },
+    {
+      "Name": "Makwanpur",
+      "Nepali": "मकवानपुर जिल्ला",
+      "Headquarte_2011rs": "Hetauda",
+      "Area_km2": "2,426",
+      "Population": "420,477",
+      "Province": "Bagmati",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Baglung",
+      "Nepali": "बागलुङ जिल्ला",
+      "Headquarte_2011rs": "Baglung",
+      "Area_km2": "1,784",
+      "Population": "268,613",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Gorkha",
+      "Nepali": "गोरखा जिल्ला",
+      "Headquarte_2011rs": "Gorkha",
+      "Area_km2": "3,610",
+      "Population": "271,061",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Kaski",
+      "Nepali": "कास्की जिल्ला",
+      "Headquarte_2011rs": "Pokhara",
+      "Area_km2": "2,017",
+      "Population": "492,098",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality", "Metropolitan"]
+    },
+    {
+      "Name": "Lamjung",
+      "Nepali": "लमजुङ जिल्ला",
+      "Headquarte_2011rs": "Besisahar",
+      "Area_km2": "1,692",
+      "Population": "167,724",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Manang",
+      "Nepali": "मनाङ जिल्ला",
+      "Headquarte_2011rs": "Chame",
+      "Area_km2": "2,246",
+      "Population": "6,538",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Rular Municipality"]
+    },
+    {
+      "Name": "Mustang",
+      "Nepali": "मुस्ताङ जिल्ला",
+      "Headquarte_2011rs": "Jomsom",
+      "Area_km2": "3,573",
+      "Population": "13,452",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Rular Municipality"]
+    },
+    {
+      "Name": "Myagdi",
+      "Nepali": "म्याग्दी जिल्ला",
+      "Headquarte_2011rs": "Beni",
+      "Area_km2": "2,297",
+      "Population": "113,641",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Nawalpur",
+      "Nepali": "नवलपुर जिल्ला",
+      "Headquarte_2011rs": "Kawasoti",
+      "Area_km2": "1,043.1",
+      "Population": "310,864",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Parbat",
+      "Nepali": "पर्वत जिल्ला",
+      "Headquarte_2011rs": "Kusma",
+      "Area_km2": 494,
+      "Population": "146,590",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Syangja",
+      "Nepali": "स्याङग्जा जिल्ला",
+      "Headquarte_2011rs": "Putalibazar",
+      "Area_km2": "1,164",
+      "Population": "289,148",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Tanahun",
+      "Nepali": "तनहुँ जिल्ला",
+      "Headquarte_2011rs": "Damauli",
+      "Area_km2": "1,546",
+      "Population": "323,288",
+      "Province": "Gandaki Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Kapilvastu",
+      "Nepali": "कपिलवस्तु जिल्ला",
+      "Headquarte_2011rs": "Taulihawa",
+      "Area_km2": "1,738",
+      "Population": "571,936",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Parasi",
+      "Nepali": "परासी जिल्ला",
+      "Headquarte_2011rs": "Ramgram",
+      "Area_km2": 634.88,
+      "Population": "321,058",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Rupandehi",
+      "Nepali": "रुपन्देही जिल्ला",
+      "Headquarte_2011rs": "Siddharthanagar",
+      "Area_km2": "1,360",
+      "Population": "880,196",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Arghakhanchi",
+      "Nepali": "अर्घाखाँची जिल्ला",
+      "Headquarte_2011rs": "Sandhikharka",
+      "Area_km2": "1,193",
+      "Population": "197,632",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Gulmi",
+      "Nepali": "गुल्मी जिल्ला",
+      "Headquarte_2011rs": "Tamghas",
+      "Area_km2": "1,149",
+      "Population": "280,160",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Palpa",
+      "Nepali": "पाल्पा जिल्ला",
+      "Headquarte_2011rs": "Tansen",
+      "Area_km2": "1,373",
+      "Population": "261,180",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Dang",
+      "Nepali": "दाङ जिल्ला",
+      "Headquarte_2011rs": "Ghorahi",
+      "Area_km2": "2,955",
+      "Population": "552,583",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Pyuthan",
+      "Nepali": "प्युठान जिल्ला",
+      "Headquarte_2011rs": "Pyuthan",
+      "Area_km2": "1,309",
+      "Population": "228,102",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Rolpa",
+      "Nepali": "रोल्पा जिल्ला",
+      "Headquarte_2011rs": "Liwang",
+      "Area_km2": "1,879",
+      "Population": "224,506",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Eastern Rukum",
+      "Nepali": "पूर्वी रूकुम जिल्ला",
+      "Headquarte_2011rs": "Rukumkot",
+      "Area_km2": "1,161.13",
+      "Population": "53,018",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Banke",
+      "Nepali": "बाँके जिल्ला",
+      "Headquarte_2011rs": "Nepalganj",
+      "Area_km2": "2,337",
+      "Population": "491,313",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Bardiya",
+      "Nepali": "बर्दिया जिल्ला",
+      "Headquarte_2011rs": "Gulariya",
+      "Area_km2": "2,025",
+      "Population": "426,576",
+      "Province": "Lumbini Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Western Rukum",
+      "Nepali": "पश्चिमी रूकुम जिल्ला",
+      "Headquarte_2011rs": "Musikot",
+      "Area_km2": "1,213.49",
+      "Population": "154,272",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Salyan",
+      "Nepali": "सल्यान जिल्ला",
+      "Headquarte_2011rs": "Salyan",
+      "Area_km2": "1,462",
+      "Population": "242,444",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Dolpa",
+      "Nepali": "डोल्पा जिल्ला",
+      "Headquarte_2011rs": "Dunai",
+      "Area_km2": "7,889",
+      "Population": "36,700",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Humla",
+      "Nepali": "हुम्ला जिल्ला",
+      "Headquarte_2011rs": "Simikot",
+      "Area_km2": "5,655",
+      "Population": "50,858",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Rular Municipality"]
+    },
+    {
+      "Name": "Jumla",
+      "Nepali": "जुम्ला जिल्ला",
+      "Headquarte_2011rs": "Chandannath",
+      "Area_km2": "2,531",
+      "Population": "108,921",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Kalikot",
+      "Nepali": "कालिकोट जिल्ला",
+      "Headquarte_2011rs": "Manma",
+      "Area_km2": "1,741",
+      "Population": "136,948",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Mugu",
+      "Nepali": "मुगु जिल्ला",
+      "Headquarte_2011rs": "Gamgadhi",
+      "Area_km2": "3,535",
+      "Population": "55,286",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Surkhet",
+      "Nepali": "सुर्खेत जिल्ला",
+      "Headquarte_2011rs": "Birendranagar",
+      "Area_km2": "2,451",
+      "Population": "350,804",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Dailekh",
+      "Nepali": "दैलेख जिल्ला",
+      "Headquarte_2011rs": "Narayan",
+      "Area_km2": "1,502",
+      "Population": "261,770",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Jajarkot",
+      "Nepali": "जाजरकोट जिल्ला",
+      "Headquarte_2011rs": "Khalanga",
+      "Area_km2": "2,230",
+      "Population": "171,304",
+      "Province": "Karnali Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Kailali",
+      "Nepali": "कैलाली जिल्ला",
+      "Headquarte_2011rs": "Dhangadhi",
+      "Area_km2": "3,235",
+      "Population": "775,709",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": [
+        "Municipality",
+        "Rular Municipality",
+        "Sub-Metropolitan"
+      ]
+    },
+    {
+      "Name": "Achham",
+      "Nepali": "अछाम जिल्ला",
+      "Headquarte_2011rs": "Mangalsen",
+      "Area_km2": "1,680",
+      "Population": "257,477",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Doti",
+      "Nepali": "डोटी जिल्ला",
+      "Headquarte_2011rs": "Dipayal Silgadhi",
+      "Area_km2": "2,025",
+      "Population": "211,746",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Bajhang",
+      "Nepali": "बझाङ जिल्ला",
+      "Headquarte_2011rs": "Jayaprithvi",
+      "Area_km2": "3,422",
+      "Population": "195,159",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Bajura",
+      "Nepali": "बाजुरा जिल्ला",
+      "Headquarte_2011rs": "Martadi",
+      "Area_km2": "2,188",
+      "Population": "134,912",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Kanchanpur",
+      "Nepali": "कंचनपुर जिल्ला",
+      "Headquarte_2011rs": "Bhimdatta",
+      "Area_km2": "1,610",
+      "Population": "451,248",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Dadeldhura",
+      "Nepali": "डडेलधुरा जिल्ला",
+      "Headquarte_2011rs": "Amargadhi",
+      "Area_km2": "1,538",
+      "Population": "142,094",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Baitadi",
+      "Nepali": "बैतडी जिल्ला",
+      "Headquarte_2011rs": "Dasharathchand",
+      "Area_km2": "1,519",
+      "Population": "250,898",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    },
+    {
+      "Name": "Darchula",
+      "Nepali": "दार्चुला जिल्ला",
+      "Headquarte_2011rs": "Darchula",
+      "Area_km2": "2,322",
+      "Population": "133,274",
+      "Province": "SudurPaschim Pradesh",
+      "LocalBodiesType": ["Municipality", "Rular Municipality"]
+    }
+  ]

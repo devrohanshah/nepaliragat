@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nepali-Ragat</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!--box icons  -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="fetch data/js/jquery.js"></script>
+  </head>
+  <body>
+    
+    <!-- header -->
+    <header>
+      <div class="logo mob-logo"><img src="./images/uploads/logo.png" alt="" /></div>
+      <div class="header">
+      <div class="logo"><img src="./images/uploads/logo.png" alt="" /></div>
+      <nav class="nav-bar">
+        <a href="#home">Home<span class="menu-line"></span></a>
+        <a href="#about">Idea<span class="menu-line"></span></a>
+        <a href="#about">About<span class="menu-line"></span></a>
+        <a href="#coreteam">Core Team<span class="menu-line"></span></a>
+        <a href="#contact">Contact<span class="menu-line"></span></a>
+      </nav>
+      <div class="header-bg"></div>
+      <div class="reg"><a href="registration/registration.php"><button>Register for donation</button></a></div>
+    </div>
+    
+    <!-- navigation bar for mobile -->
+    <div class="mobile-nav">
+      <ul>
+        <li id="home-page" class="navLi">
+          <a href="#home">
+            <box-icon name='home' type='solid' class="inactiveIcon"></box-icon>
+            <box-icon name='home' class="activeNavIcon"></box-icon>
+          </a>
+        </li>
+        <li class="navLi">
+          <a href="#about">
+            <box-icon name='user-pin' type='solid' class=""></box-icon>
+            <box-icon name='user-pin' class=""></box-icon>
+          </a>
+        </li>
+        <li class="navLi">
+          <a href="#coreteam">
+            <img class="" src="https://img.icons8.com/material-rounded/96/conference-call.png" alt="conference-call"/>
+            <img class="" src="https://img.icons8.com/material-outlined/96/conference-call.png" alt="conference-call"/>
+          </a>
+        </li>
+        <li class="navLi">
+          <a href="#contact">
+            <box-icon name='phone-call' type='solid' class=""></box-icon>
+            <box-icon name='phone-call' class=""></box-icon>
+          </a>
+        </li>
+        <div class="indicator"></div>
+      </ul>
+    </div>
+    </header>
+    
+    <main>
+      <!-- <div class="space-for-header"></div> -->
+      <!--  home -->
+      <!--<div id="google_translate_element"></div>-->
+      <section id="home" class="home">
+        <!-- <img class="home-bg" src="./images/uploads/homeBackground.png" /> -->
+        <div class="home-left">
+          <div class="home-left-title">
+            <h1>find blood in your area at the moment</h1>
+            <h3>
+              Let's purify us<br /> & <br />
+              save others
+            </h3>
+          </div>
+          <div class="home-left-details">
+            
+            <div class="home-left-links">
+              <a href="https://www.facebook.com/" target="_blank"></a>
+              <a href="https://www.instagram.com/" target="_blank"></a>
+              <a href="" target="_blank"></a>
+            </div>
+          </div>
+        </div>
+        <div class="home-right">
+          <h1>Search for your donor</h1>
+          <div class="home-right-content">
+            <form id="placeDetailsForm" onsubmit="return submitForm()" action="./fetch data/table.php" method="post" target="_blank">
+             
+              <div class="home-blood-group">
+                <label for="bloodgroup">BLOODGROUP:</label>
+                <select id="bloodgroup" name="bloodgroup">
+                  <option value="A+">(A+) - A RhD positive</option>
+                  <option value="A-">(A-) - A RhD negative</option>
+                  <option value="B+">(B+) - B RhD positive</option>
+                  <option value="B-">(B-) - B RhD negative</option>
+                  <option value="O+">(O+) - O RhD positive</option>
+                  <option value="O-">(O-) - O RhD negative</option>
+                  <option value="AB+">(AB+) - AB RhD positive</option>
+                  <option value="AB-">(AB-) - AB RhD negative</option>
+                </select>
+              </div>
+  
+              <div class="home-province">
+                <label for="province">PROVINCE:</label>
+                <select id="province" name="province">
+                  <option value="Province No. 1">Province No. 1</option>
+                  <option value="Province No. 2">Province No. 2</option>
+                  <option value="Province No. 3">Province No. 3</option>
+                  <option value="Gandaki">Gandaki</option>
+                  <option value="Karnali">Karnali</option>
+                  <option value="Province No. 5">Province No. 5</option>
+                  <option value="SudurPaschim">SudurPaschim</option>
+                </select>
+              </div>
+  
+              <div class="home-district">
+                <label for="district">DISTRICT:</label>
+                <select id="district" name="district">
+                  <option value="">Choose one</option>
+                </select>
+              </div>
+  
+              <div class="home-municipality">
+                <label for="municipality">MUNICIPALITY:</label>
+                <select id="municipality" name="municipality">
+                  <option value="">Choose one</option>
+                </select>
+              </div>  
+               
+              <div class="home-rural-municipality">
+                <label for="ruralMunicipality">RURAL MUNICIPALITY:</label>                
+                <select id="ruralMunicipality" name="ruralMunicipality">
+                  <option value="">Choose one</option>
+                </select>
+              </div>
+                <button type="submit" name="searchdata" id="submit" class="Submit" onsubmit="findNearbyHospitals()">Search for your donor</button>
+            </form>
+            <table>
+            <tbody class="data" id="data">
+              <!--   <tr>
+                     <td>1</td>
+                     <td>John Doe</td>
+                     <td>New York</td>
+                     <td>123-456-7890</td>
+                     <td>john.doe@example.com</td>
+                 </tr>
+                 <tr>
+                     <td>2</td>
+                     <td>Jane Smith</td>
+                     <td>Los Angeles</td>
+                     <td>987-654-3210</td>
+                     <td>jane.smith@example.com</td>
+                 </tr>-->
+                 
+                 <!-- Add more rows as needed -->
+             </tbody>
+         </table>
+            <script>
+              document.addEventListener("DOMContentLoaded", () => {
+                document.getElementById("home-blood-group").style.display = "block";
+});
+              function submitForm() {
+                  const selectedMunicipality = document.getElementById('municipality').value;
+                  document.getElementById('placeDetailsForm').action = `./fetch data/table.php?municipality=${selectedMunicipality}`;
+                  return true; // Return true to allow the form submission to proceed
+              }
+           </script>
+          </div>
+        </div>
+      </section>
+      <div id="map" style="height: 400px; width: 100%;"></div>
+
+      <!-- about  -->
+      <section id="about" class="idea">
+        <p class="idea-head">The Idea Behind <span>Nepali Ragat</span></p>
+        <div class="idea-content">
+          <div class="idea-cont">
+            <p class="idea-desc">
+              It all started when an idea struck in my head in the 2080 dashain.
+              When i witnessed my brothers working relentlessly for the
+              availibility of blood due to Elephant attack in my area. It rers working relentlessly for the
+              availibility of blood due to Elephant attack in my area. It really
+              hit my heart. We assume ourselves to be technologically advanced
+              but during situations like these we are so outdated. I wanted this
+              to change with my effort. And making a database of blood in our
+              area hit my head. And with some brainstorming, this idea
+              transformed into a website model which I proposed to my friend and
+              here we are!!
+            </p>
+            <p class="idea-auth">-By Sebish Niraula(Founder at Nepali Ragat)</p>
+          </div>
+          <div class="idea-pic">
+            <div class="idea-pic-img">
+              <img src=".\/images/uploads/donation.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- core team -->
+      <section id="coreteam" class="core-team">
+        <div class="core-head">
+          <p>Our Core <span>team</span></p>
+        </div>
+        <div class="core-members">
+          <div class="founder">
+            <img src=".\/images/uploads/founder.jpg" alt="" />
+            <span>Sebish Niraula</span>
+            <p>Founder</p>
+          </div>
+          <div class="cofounder">
+            <img src=".\/images/uploads/ceo.jpg">
+            <span>Ujjwal Subedi</span>
+            <p>CEO & Co-founder</p>
+          </div>
+          <div class="cofounder">
+            <img src=".\/images/uploads/ceo2.jpg">
+            <span>Rohan Shah</span>
+            <p></p>
+          </div>
+          <div class="cofounder">
+            <img src=".\/images/uploads/cofounder.jpg" alt="" />
+            <span>Sushant Shah</span>
+            <p>Co-Founder and CTO</p>
+          </div>
+          <div class="cfo">
+            <img src=".\/images/uploads/cfo.jfif" alt="" />
+            <span>Spandan Sigdel</span>
+            <p>Managerial Director</p>
+          </div>          
+          <div class="healthS">
+            <img src=".\/images/uploads/healthS.jpg" alt="" />
+            <span>Pratik Banjade</span>
+            <p>Health Supervisor</p>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- contact page -->
+      <section id="contact" class="contact">
+        <h1>Contact <span>Us</span></h1>
+        <div class="contact-content">
+          <div class="contact-live-chat">
+            <img src="./images/uploads/livechat.png" alt="" />
+            <div class="live-chat-desc">
+              <p>
+                Connect with us on social media for updates on blood donation events and information. Join us in saving lives!
+              
+            </div>
+            <button class="live-chat-btn" onclick="window.open('https://www.facebook.com/', '_blank');">CHAT NOW</button>
+
+          </div>
+          
+          
+
+          <div class="contact-call">
+            <i class="fa-solid fa-phone"></i>
+            <div class="call-desc">
+              <p>
+                Urgent Appeal: Lives Hang in the Balance! Your immediate blood donation can be the lifeline for those in critical need. Every drop counts. Act now to save lives!
+              </p>            
+            </div>
+            <button class="call-btn">Call Us</button>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+  </body>
+  <script src="./js/script.js"></script>
+  <script src="./js/responsive.js"></script>
+  <script src="./js/api.js"></script>
+  <script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+		}
+		</script>
+
+    <script>
+      document.getElementById('placeDetailsForm').addEventListener('submit', function() {
+
+    var bloodgroup = document.getElementById('bloodgroup').value;
+    var province = document.getElementById('province').value;
+    var district = document.getElementById('district').value;
+    var ruralMunicipality = document.getElementById('ruralMunicipality').value;
+
+    var data = {
+        bloodgroup: bloodgroup,
+        province: province,
+        district: district,
+        ruralMunicipality: ruralMunicipality
+    };
+
+    fetch('./nepaliragatfinal/fetch data/fetch/fetch.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+    .then(response => response.json())
+    .then(data => {
+        var tableBody = document.querySelector('.data');
+        tableBody.innerHTML = '';
+
+        data.forEach(row => {
+            var tr = document.createElement('tr');
+
+            var tdId = document.createElement('td');
+            tdId.textContent = row.id;
+            tr.appendChild(tdId);
+
+            var tdName = document.createElement('td');
+            tdName.textContent = row.first + ' ' + row.last;
+            tr.appendChild(tdName);
+
+            var tdLocation = document.createElement('td');
+            tdLocation.textContent = row.district;
+            tr.appendChild(tdLocation);
+
+            var tdContact = document.createElement('td');
+            tdContact.textContent = row.mobile;
+            tr.appendChild(tdContact);
+
+            var tdEmail = document.createElement('td');
+            tdEmail.textContent = row.email;
+            tr.appendChild(tdEmail);
+
+            tableBody.appendChild(tr);
+        });
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+});
+    </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</html>

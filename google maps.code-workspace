@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../google maps"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "google maps"
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "chrome",
+				"name": "http://127.0.0.1:3000/replceme.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/replceme.html"
+			}
+		]
+	}
+}

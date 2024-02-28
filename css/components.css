@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nova+Square&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700&family=Kumbh+Sans:wght@100;200;300;400;500;600;700&family=Mooli&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100&display=swap');
+.primary-font{
+    font-family: 'Mooli';
+}
+.secondary-font{
+    font-family: 'Kumbh Sans';
+}
+.styling-font{
+    font-family: 'Eczar';
+}
+body{
+    font-family: 'Roboto';
+}
+button{
+    padding: 10px 20px;
+    background: linear-gradient(#5A95FD,#3F86FC,#0D72F9);
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'kanit';
+}
+button:hover{
+    transition: all 1s ease;
+    background: linear-gradient(#0D72F9,#3F86FC,#5A95FD);
+}
+section{
+    padding: 100px 20px;
+}
+:root{
+    --rato: #a83b3f;
+}
+.inactiveIcon{
+    opacity: 0 !important;
+}
+.border{
+    border: 2px solid black;
+}

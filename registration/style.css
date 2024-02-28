@@ -1,0 +1,199 @@
+/* style.css */
+body { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-family: sans-serif; 
+	line-height: 1.5; 
+	min-height: 100vh; 
+	background-image: url("bg.png");
+    background-repeat: no-repeat;
+	flex-direction: column; 
+	margin-top: 45px;
+    margin-bottom: 200px;
+} 
+
+.main { 
+	background-color: #fff; 
+	border-radius: 15px; 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+	padding: 10px 20px; 
+	transition: transform 0.2s; 
+	width: 500px; 
+	text-align: center; 
+} 
+
+h1 { 
+	color: red; 
+} 
+
+label { 
+	display: block; 
+	width: 100%; 
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+	text-align: left; 
+	color: #555; 
+	font-weight: bold;
+} 
+
+.password-toggle-icon i {
+	position: relative;
+	bottom: 36px;
+	left: 232px;
+	transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Added transition for color and transform */
+	transform: translateY(-50%);
+	display: block;
+}
+
+
+.password-toggle-icon i:hover {
+	color: #f30707;
+	transform: translateY(-50%) scale(1.2); /* Added scale transform on hover */
+}
+
+.repassword-toggle-icon i {
+	position: relative;
+	bottom: 36px;
+	left: 232px;
+	transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Added transition for color and transform */
+	transform: translateY(-50%);
+	display: block;
+}
+
+
+.repassword-toggle-icon i:hover {
+	color: #f30707;
+	transform: translateY(-50%) scale(1.2); /* Added scale transform on hover */
+}
+
+#pass { 
+	color: red; 
+	font-size: 12px; 
+} 
+
+input { 
+	display: block; 
+	width: 100%; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+} 
+
+select { 
+	display: block; 
+	width: 100%; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+} 
+
+button { 
+	padding: 15px; 
+	border-radius: 20px; 
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	background-color: red; 
+	width: 80%; 
+	font-size: 16px; 
+} 
+
+.wrap { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+}
+
+#pass { 
+	color: red; 
+	font-size: 12px; 
+} 
+
+input { 
+	display: block; 
+	width: 100%; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+} 	
+
+select { 
+	display: block; 
+	width: 100%; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+} 
+
+button { 
+	padding: 15px; 
+	border-radius: 20px; 
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	background-color: red; 
+	width: 80%; 
+	font-size: 16px; 
+} 
+
+.wrap { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+}
+
+.repassword{
+	position: relative;
+	margin-top: -20px;
+}
+
+.contact{
+	position: relative;
+	margin-top: -12px;
+}
+
+/* Added CSS for the error message */
+.error {
+	color: red;
+	font-size: 12px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+/* Added CSS for the success message */
+.success {
+	color: green;
+	font-size: 12px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.box{
+	position: relative;
+	margin-bottom: 10px;
+	right: 240px;
+	top: 25px;
+}
+
+.check-box{
+	text-overflow: inherit;
+}
+
+.terms {
+	position: relative;
+	margin-top: -2px;
+	text-align: inherit;
+}

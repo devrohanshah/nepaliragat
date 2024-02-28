@@ -1,0 +1,105 @@
+body {
+        font-family: sans-serif;
+        background-color: #f4f4f4;
+        background-image: url("bg.png");
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 20px;
+    }
+    table {
+        width: 55%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f2f2f2;
+    }
+   
+    .logo img{
+        width: 200px;
+        margin-top: -25px;
+        margin-left: 550px;
+    }
+    h1{
+        margin-left: 180px;
+        font-family: Kanit;
+    }
+    h2{
+        font-size: 32px;
+    }
+    button {
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 10px;
+    background-color: #1d84d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+   /* The above code is creating a simple HTML form for finding nearby hospitals. It includes an input
+   field for the user to enter their location, a search button that triggers a JavaScript function
+   `findNearbyHospitals()` when clicked, and a placeholder `<div>` element with the id "map" where a
+   map displaying nearby hospitals could potentially be displayed. */
+    font-family: sans-serif;
+}
+
+button:hover {
+    background-color: #3889be;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 27%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Kanit;
+}
+#map {
+    width: 550px;
+    height: 350px;  
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.main-container{
+    display: flex;
+}
+.input-area{
+    display: flex;
+}
+
+#placeDetailsForm label{
+    width: 13vw;
+    font-family: 'kanit';
+  }
+select {
+    height: 38px;
+    padding: 10px;  
+    border-radius: 10px;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 20rem;
+    border: none;
+    background-color: #d9e6e9;
+    font-size: 16px;
+    font-family: 'kanit';
+  }
+button{
+    font-family: Kanit;
+}
+
