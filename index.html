@@ -35,7 +35,7 @@
         <a href="#contact">Contact<span class="menu-line"></span></a>
       </nav>
       <div class="header-bg"></div>
-      <div class="reg"><a href="registration/registration.html"><button>Register for donation</button></a></div>
+      <div class="reg"><a href="registration/registration.php"><button>Register for donation</button></a></div>
     </div>
     
     <!-- navigation bar for mobile -->
@@ -173,7 +173,7 @@
 });
               function submitForm() {
                   const selectedMunicipality = document.getElementById('municipality').value;
-                  document.getElementById('placeDetailsForm').action = `./fetch data/table.html?municipality=${selectedMunicipality}`;
+                  document.getElementById('placeDetailsForm').action = `./fetch data/table.php?municipality=${selectedMunicipality}`;
                   return true; // Return true to allow the form submission to proceed
               }
            </script>
