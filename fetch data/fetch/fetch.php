@@ -1,9 +1,9 @@
 <?php
 // Define database connection details
 $servername = "localhost";
-$username = "pma";
+$username = "";
 $password = "";
-$dbname = "nepaliragat";
+$dbname = "";
 
 // Create a new database connection
 $conn = new mysqli($servername, $username, $password, $dbname);
